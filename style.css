@@ -32,7 +32,7 @@
     width: 97vw;
     height: 95vh;
     border: 13px dotted #433D39;
-    pointer-events: none; /* So it doesn't block clicks */
+    pointer-events: none;
     z-index: 9999;
     align-items: center;
 
@@ -40,32 +40,32 @@
 
 body {
     background-color: #FCF6E7;
-    height: 800vh; /* Make the body taller to enable scrolling */
+    height: 800vh;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+    justify-content: center; 
+    align-items: center; 
     overflow-x: hidden;
 }
 .chachaantengtitle img {
-    position: fixed; /* Fixed position to stay on screen while scrolling */
+    position: fixed;
     top: 50vh; 
     left: 50%; 
-    transform: translate(-50%, -50%); /* Center the element itself */
-    transition: all 0.6s ease; /* Smooth transition for all changing properties */
-    width: auto; /* Allow SVG to maintain its aspect ratio */
-    height: auto; /* Allow SVG to maintain its aspect ratio */
-    transform-origin: center center; /* Set the origin for scaling */
+    transform: translate(-50%, -50%); 
+    transition: all 0.6s ease;
+    width: auto; 
+    height: auto;
+    transform-origin: center center; 
 }
 
 .scrollinstruction {
-    position: fixed; /* Position the .scroll div below the .chachaantengtitle */
+    position: fixed; 
     top: 90vh;
-    left: 50%; /* Center the .scroll div horizontally */
-    transform: translateX(-50%); /* Adjust for horizontal centering */
+    left: 50%; 
+    transform: translateX(-50%);
     font-family: 'BacasimeAntique-Regular';
     color: #B7AA86;
-    text-align: center; /* Center text inside .scroll */
+    text-align: center; 
     animation: blink 3s infinite;
     font-size: 1.3vw;
 }
@@ -87,9 +87,9 @@ body {
     left: 5%; 
     right:5%;
     position: sticky;
-    top: 35vh; /* Stick to the top */
-    background-color: #FCF6E7; /* Optional: background to avoid transparency overlap */
-    z-index: 10; /* Ensure it stays above other content */
+    top: 35vh; 
+    background-color: #FCF6E7; 
+    z-index: 10; 
     opacity: 0;
     visibility: visible;
     z-index:0;
