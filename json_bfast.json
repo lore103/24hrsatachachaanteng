@@ -1,0 +1,66 @@
+[
+    {
+      "englishname": "rice noodle rolls",
+      "chinesename": "猪肠粉",
+      "image": "png_breakfast/cheongfun.png",
+      "price": "HKD $15–$23 (USD $1.95–$2.99)",
+      "ingredients": "rice noodles, soy sauce, sesame seeds, optional fillings (shrimp, beef, pork)",
+      "description": "Soft, steamed rice noodles rolled into silky sheets and topped with sweet soy sauce, sesame seeds, and optional fillings like shrimp or BBQ pork."
+    },
+    {
+      "englishname": "egg toast",
+      "chinesename": "炒蛋多士",
+      "image": "png_breakfast/eggtoast.png",
+      "price": "HKD $12–$20 (USD $1.56–$2.60)",
+      "ingredients": "bread, egg, butter",
+      "description": "A cha chaan teng staple—simple white bread pan-fried with egg and butter, often served with milk tea."
+    },
+    {
+      "englishname": "hong kong-style french toast",
+      "chinesename": "港式西多士",
+      "image": "png_breakfast/frenchtoast.png",
+      "price": "HKD $20–$28 (USD $2.60–$3.64)",
+      "ingredients": "bread, egg, peanut butter (or condensed milk), butter, syrup",
+      "description": "Thick slices of bread sandwiched with peanut butter or condensed milk, dipped in egg, deep-fried, and served with a slab of butter and golden syrup."
+    },
+    {
+      "englishname": "hong kong-style instant noodles",
+      "chinesename": "港式公仔面",
+      "image": "png_breakfast/instantnoodle.png",
+      "price": "HKD $8–$15 (USD$1.04–$1.95)",
+      "ingredients": "instant noodles, ham or luncheon meat, egg, broth",
+      "description": "Chewy instant noodles served in a light broth with toppings like luncheon meat, ham, or a fried egg."
+    },
+    {
+      "englishname": "macaroni ham soup",
+      "chinesename": "火腿通粉",
+      "image": "png_breakfast/macandham.png",
+      "price": "HKD $25–$30 (USD $3.25–$3.90)",
+      "ingredients": "macaroni, ham, broth",
+      "description": "Soft elbow macaroni in a clear chicken broth with slices of ham, sometimes accompanied by vegetables or a side of toast."
+    },
+    {
+      "englishname": "satay beef instant noodles",
+      "chinesename": "沙嗲牛肉公仔麵",
+      "image": "png_breakfast/sataybeef.png",
+      "price": "HKD $27–$48 (USD $3.51–$6.24)",
+      "ingredients": "instant noodles, beef, satay sauce, broth",
+      "description": "Instant noodles in a savory, mildly spicy satay broth, topped with tender marinated beef slices and often a soft-boiled egg."
+    },
+    {
+      "englishname": "supreme soy sauce fried noodles",
+      "chinesename": "豉油皇炒麵",
+      "image": "png_breakfast/soysaucenoodles.png",
+      "price": "HKD $20–$30 (USD $2.60–$3.90)",
+      "ingredients": "egg noodles, soy sauce, bean sprouts, green onion",
+      "description": "Thin egg noodles stir-fried with soy sauce, bean sprouts, and scallions—a simple but flavorful vegetarian option."
+    },
+    {
+      "englishname": "congee with chinese fried dough",
+      "chinesename": "白粥油炸鬼",
+      "image": "png_breakfast/congeenyoutiao.png",
+      "price": "HKD $43–$54 (USD $5.59–$7.02)",
+      "ingredients": "rice porridge, fried dough stick, optional: pork, fish, century egg",
+      "description": "Creamy rice porridge served with crispy fried dough sticks (youtiao) for dipping, often paired with pork, fish, or century egg for added depth."
+    }
+  ]

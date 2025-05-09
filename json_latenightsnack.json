@@ -1,0 +1,50 @@
+[
+  {
+    "englishname": "curry fishball",
+    "chinesename": "咖喱鱼蛋",
+    "image": "png_latenightsnack/curryfishball.png",
+    "price": "HKD $10–$15 / USD $1.30–$1.95",
+    "ingredients": "fish balls, curry sauce (curry powder, garlic, chili, soy sauce), water, oil",
+    "description": "A popular street snack featuring bouncy fish balls simmered in a spicy curry sauce, served on skewers or in cups."
+  },
+  {
+    "englishname": "ginger milk curd",
+    "chinesename": "姜汁撞奶",
+    "image": "png_latenightsnack/gingermilkcurd.png",
+    "price": "HKD $20–$30 (USD $2.60–$3.90)",
+    "ingredients": "fresh milk, ginger juice, sugar.",
+    "description": "A traditional Cantonese dessert where hot milk is poured over ginger juice, causing it to curdle into a silky pudding with a warm, spicy-sweet flavor."
+  },
+  {
+    "englishname": "swiss chicken wings",
+    "chinesename": "瑞士鸡翼",
+    "image": "png_latenightsnack/swisschickenwings.png",
+    "price": "HKD $40–$60 (USD $5.20–$7.80)",
+    "ingredients": "chicken wings, soy sauce, sugar, star anise, Shaoxing wine, garlic",
+    "description": "Despite the name, this dish is uniquely Hong Kong—chicken wings braised in a sweet-savory soy-based sauce until tender and flavorful."
+  },
+  {
+    "englishname": "tofu pudding",
+    "chinesename": "豆腐花",
+    "image": "png_latenightsnack/tofupudding.png",
+    "price": "HKD $10–$20 (USD $1.30–$2.60)",
+    "ingredients": "soy milk, coagulant (gypsum or nigari), sugar syrup, optional toppings like red beans or tapioca.",
+    "description": "A delicate dessert made from soft tofu, served warm or cold and drizzled with sweet syrup."
+  },
+  {
+    "englishname": "braised lo shui tofu",
+    "chinesename": "卤水豆腐",
+    "image": "png_latenightsnack/tofu.png",
+    "price": "HKD $15–$25 (USD $1.95–$3.25)",
+    "ingredients": "firm tofu, soy sauce, five-spice powder, star anise, cinnamon, sugar, garlic",
+    "description": "Tofu braised in a fragrant soy-based broth, absorbing deep savory flavors for a rich, satisfying bite."
+  },
+  {
+    "englishname": "bo lo yau",
+    "chinesename": "菠萝油",
+    "image": "png_latenightsnack/boloyau.png",
+    "price": "HKD $10–$20 (USD $1.30–$2.60)",
+    "ingredients": "sweet bun dough, sugar crust topping, slice of cold butter.",
+    "description": "A soft, sweet bun topped with a crunchy crust and served warm with a thick slab of butter inside."
+  }
+]

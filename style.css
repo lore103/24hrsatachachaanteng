@@ -1,0 +1,322 @@
+@font-face{
+    font-family: 'BacasimeAntique-Regular';
+    src: url('fonts/BacasimeAntique-Regular.ttf') format('truetype');
+}    
+
+@font-face{
+    font-family: 'HYChangsong';
+    src: url('fonts/HYChangSongJ W00 Regular.woff') format('woff');
+}    
+
+.background-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('greentilebackground.svg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    opacity: 0;
+    z-index: -1;
+}
+
+.screenborder {
+    position: fixed;
+    top: 0.5vh;
+    bottom: 0.5vh;
+    left: 0.5vw;
+    right:0.5vw;
+    justify-content: center;
+    width: 97vw;
+    height: 95vh;
+    border: 13px dotted #433D39;
+    pointer-events: none; /* So it doesn't block clicks */
+    z-index: 9999;
+    align-items: center;
+
+}
+
+body {
+    background-color: #FCF6E7;
+    height: 800vh; /* Make the body taller to enable scrolling */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    overflow-x: hidden;
+}
+.chachaantengtitle img {
+    position: fixed; /* Fixed position to stay on screen while scrolling */
+    top: 50vh; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Center the element itself */
+    transition: all 0.6s ease; /* Smooth transition for all changing properties */
+    width: auto; /* Allow SVG to maintain its aspect ratio */
+    height: auto; /* Allow SVG to maintain its aspect ratio */
+    transform-origin: center center; /* Set the origin for scaling */
+}
+
+.scrollinstruction {
+    position: fixed; /* Position the .scroll div below the .chachaantengtitle */
+    top: 90vh;
+    left: 50%; /* Center the .scroll div horizontally */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+    font-family: 'BacasimeAntique-Regular';
+    color: #B7AA86;
+    text-align: center; /* Center text inside .scroll */
+    animation: blink 3s infinite;
+    font-size: 1.3vw;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.intro-text {
+    font-family: 'BacasimeAntique-Regular';
+    font-size: 1.5vw;
+    color: #433D39;
+    text-align: center;
+    padding-left:20%;
+    padding-right: 20%;
+    left: 5%; 
+    right:5%;
+    position: sticky;
+    top: 35vh; /* Stick to the top */
+    background-color: #FCF6E7; /* Optional: background to avoid transparency overlap */
+    z-index: 10; /* Ensure it stays above other content */
+    opacity: 0;
+    visibility: visible;
+    z-index:0;
+}
+
+.receipt{
+    opacity: 0;
+    position: fixed;
+    z-index:0;
+    left: 2%;
+    top: 4%;
+}
+
+.receipt img{
+    height: 90vh;
+}
+
+.bfast-chinese{
+    font-family:'HYChangsong';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.bfast-english{
+    font-family:'BacasimeAntique-Regular';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.bfast-title{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #433D39;
+    opacity:0;
+}
+
+.lunch-chinese{
+    font-family:'HYChangsong';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.lunch-english{
+    font-family:'BacasimeAntique-Regular';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.lunch-title{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #433D39;
+    opacity:0;
+}
+
+.breakfast-info {
+    transition: opacity 0.3s ease;
+}
+
+.afternoontea-chinese{
+    font-family:'HYChangsong';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.afternoontea-english{
+    font-family:'BacasimeAntique-Regular';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.afternoontea-title{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #433D39;
+    opacity:0;
+}
+
+.dinner-chinese{
+    font-family:'HYChangsong';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.dinner-english{
+    font-family:'BacasimeAntique-Regular';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.dinner-title{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #433D39;
+    opacity:0;
+}
+
+.latenightsnack-chinese{
+    font-family:'HYChangsong';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.latenightsnack-english{
+    font-family:'BacasimeAntique-Regular';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.latenightsnack-title{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #433D39;
+    opacity:0;
+}
+
+.last-chinese{
+    font-family:'HYChangsong';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.last-english{
+    font-family:'BacasimeAntique-Regular';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.last-title{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #433D39;
+    opacity:0;
+}
+
+.refresh {
+    position: fixed;
+    bottom: 5vh;
+    right: 3vw;
+    padding: 0.4vw 1vh;
+    font-size: 1.3vw;
+    background-color: #FCF6E7;
+    color: #433D39;
+    border: 13px dotted #9d9292;
+    border-radius: 1vw;
+    transition: background-color 0.1s ease;
+    z-index: 100000000;
+    font-family: 'BacasimeAntique-Regular';
+    cursor: pointer;
+    opacity:0;
+}
+
+.refresh:hover {
+    border: 13px dotted #433D39;
+    cursor: pointer;
+}
+
+.time{
+    position:fixed;
+    top: 5vh;
+    right: 3vw;
+    z-index: 100000000000000;
+    font-size: 1.3vw;
+    font-family: 'BacasimeAntique-Regular';
+    background-color: #FCF6E7;
+    border: 13px dotted #9d9292;
+    padding: 0.4vw 1vh;
+    border-radius: 1vw;
+    opacity:0;
+
+}
+
+
+
+
+

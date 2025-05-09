@@ -1,0 +1,98 @@
+[
+  {
+    "englishname": "hong kong spaghetti bolognese",
+    "chinesename": "肉酱意粉",
+    "image": "png_dinner/bakedspaghetti.png",
+    "prices": "HKD $45–$60 (USD $5.85–$7.80)",
+    "ingredients": "spaghetti, ground beef, onion, carrot, garlic, tomato paste, canned tomatoes, ketchup, dark soy sauce, worcestershire sauce, sugar, chicken stock, bay leaves, mozzarella cheese",
+    "description": "A fusion dish featuring spaghetti topped with a sweet-savory meat sauce, then baked with melted cheese on top"
+  },
+  {
+    "englishname": "borscht soup",
+    "chinesename": "罗宋汤",
+    "image": "png_dinner/borschtsoup.png",
+    "prices": "HKD $30–$45 (USD $3.90–$5.85)",
+    "ingredients": "beef, cabbage, potatoes, carrots, tomatoes, celery, onion, garlic, tomato paste, chicken broth",
+    "description": "A Hong Kong adaptation of the Eastern European soup, made without beets and featuring a tomato-based broth with tender beef and vegetables."
+  },
+  {
+    "englishname": "chinese crispy noodle",
+    "chinesename": "脆面",
+    "image": "png_dinner/crispynoodle.png",
+    "prices": "HKD $35–$50 (USD $4.55–$6.50)",
+    "ingredients": "egg noodles, chicken, assorted vegetables, soy sauce, oyster sauce, cornstarch, garlic",
+    "description": "Crispy pan-fried noodles topped with a savory stir-fry of meat and vegetables in a flavorful sauce."
+  },
+  {
+    "englishname": "hokkien fried rice",
+    "chinesename": "福建炒饭",
+    "image": "png_dinner/fujianfriedrice.png",
+    "prices": "HKD $40–$60 (USD $5.20–$7.80)",
+    "ingredients": "cooked rice, chicken, shrimp, mushrooms, eggs, garlic, soy sauce, oyster sauce, green onions",
+    "description": "A two-part dish with fried rice topped with a saucy stir-fry of meats and vegetables."
+  },
+  {
+    "englishname": "sauteed chinese broccoli",
+    "chinesename": "炒芥兰",
+    "image": "png_dinner/gailan.png",
+    "prices": "HKD $20–$30 (USD $2.60–$3.90)",
+    "ingredients": "chinese broccoli (gai lan), garlic, oil, salt, oyster sauce",
+    "description": "A simple and healthy dish of crisp-tender Chinese broccoli stir-fried with garlic and seasoned with oyster sauce."
+  },
+  {
+    "englishname": "baked pork chop on rice",
+    "chinesename": "焗猪扒饭",
+    "image": "png_dinner/porkchoprice.png",
+    "prices": "HKD $50–$70 (USD $6.50–$9.10)",
+    "ingredients": "pork chops, rice, tomato sauce, onion, bell pepper, cheese, garlic",
+    "description": "Breaded pork chops served over rice, smothered in a tangy tomato sauce, and baked with cheese until golden."
+  },
+  {
+    "englishname": "steamed pork patty with preserved vegetables",
+    "chinesename": "肉饼",
+    "image": "png_dinner/porkpatty.png",
+    "prices": "HKD $35–$50 (USD $4.55–$6.50)",
+    "ingredients": "ground pork, preserved vegetables (dong cai), soy sauce, sesame oil, white pepper, cornstarch, green onions",
+    "description": "A comforting steamed dish combining seasoned ground pork with savory preserved vegetables."
+  },
+  {
+    "englishname": "hong kong–style portuguese chicken",
+    "chinesename": "葡国鸡饭",
+    "image": "png_dinner/portugueserice.png",
+    "prices": "HKD $60–$80 (USD $7.80–$10.40)",
+    "ingredients": "chicken, coconut milk, curry powder, onion, bell pepper, potatoes, cheese, rice",
+    "description": "A Macau-inspired dish featuring chicken in a creamy coconut curry sauce, baked over rice with melted cheese."
+  },
+  {
+    "englishname": "white rice",
+    "chinesename": "白饭",
+    "image": "png_dinner/rice.png",
+    "prices": "HKD $5–$10 (USD $0.65–$1.30)",
+    "ingredients": "white rice, water",
+    "description": "Steamed plain white rice, a staple accompaniment to many Chinese dishes."
+  },
+  {
+    "englishname": "cantonese roast pork belly",
+    "chinesename": "烧肉",
+    "image": "png_dinner/shaorou.png",
+    "prices": "HKD $50–$70 (USD $6.50–$9.10)",
+    "ingredients": "pork belly, five-spice powder, salt, vinegar",
+    "description": "Crispy-skinned roast pork belly seasoned with aromatic spices, a popular Cantonese delicacy."
+  },
+  {
+    "englishname": "sizzling steak in black pepper sauce",
+    "chinesename": "铁板黑椒牛扒",
+    "image": "png_dinner/sizzlingplate.png",
+    "prices": "HKD $70–$90 (USD $9.10–$11.70)",
+    "ingredients": "steak, black pepper, onion, bell pepper, soy sauce, oyster sauce, garlic",
+    "description": "Tender steak served on a hot plate, smothered in a rich black pepper sauce with vegetables."
+  },
+  {
+    "englishname": "cantonese poached chicken",
+    "chinesename": "白切鸡",
+    "image": "png_dinner/whitecutchicken.png",
+    "prices": "HKD $60–$80 (USD $7.80–$10.40)",
+    "ingredients": "whole chicken, ginger, green onions, salt, oil",
+    "description": "Gently poached chicken served with a fragrant ginger-scallion oil, highlighting the natural flavors of the meat."
+  }
+]

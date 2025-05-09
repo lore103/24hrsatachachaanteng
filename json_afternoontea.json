@@ -1,0 +1,74 @@
+[
+  {
+    "englishname": "chicken wing",
+    "chinesename": "鸡翼",
+    "image": "png_afternoontea/chickenwing.png",
+    "price": "HKD $20–$40 (USD $2.60–$5.20)",
+    "ingredients": "chicken wings, soy sauce, honey, garlic, ginger, oil.",
+    "description": "Juicy wings marinated in a savory-sweet sauce, then grilled or fried to perfection."
+  },
+  {
+    "englishname": "club sandwich",
+    "chinesename": "公司三文治",
+    "image": "png_afternoontea/clubsandwich.png",
+    "price": "HKD $30–$50 (USD $3.90–$6.50)",
+    "ingredients": "white bread, ham, turkey, bacon, lettuce, tomato, egg, mayonnaise",
+    "description": "A triple-layered sandwich filled with meats, fresh vegetables, and creamy mayo, toasted to a golden brown."
+  },
+  {
+    "englishname": "corned beef and egg sandwich",
+    "chinesename": "咸牛肉蛋三文治",
+    "image": "png_afternoontea/cornedbeefeggsandwich.png",
+    "price": "HKD $20–$30 (USD $2.60–$3.90)",
+    "ingredients": "white bread, canned corned beef, eggs, butter, salt, pepper",
+    "description": "A hearty sandwich combining savory corned beef with fluffy scrambled eggs, a cha chaan teng favorite.\n"
+  },
+  {
+    "englishname": "egg tart",
+    "chinesename": "蛋挞",
+    "image": "png_afternoontea/eggtart.png",
+    "price": "HKD $8–$12 (USD $1.04–$1.56)",
+    "ingredients": "flour, butter, eggs, sugar, evaporated milk, vanilla extract",
+    "description": "A flaky pastry shell filled with smooth, lightly sweetened egg custard, baked until golden."
+  },
+  {
+    "englishname": "fish fillet with salad",
+    "chinesename": "鱼柳沙律",
+    "image": "png_afternoontea/fishnsalad.png",
+    "price": "HKD $40–$60 (USD $5.20–$7.80)",
+    "ingredients": "white fish fillet, lettuce, tomato, cucumber, salad dressing",
+    "description": "Crispy fried fish fillet served alongside a fresh garden salad, offering a balanced meal."
+  },
+  {
+    "englishname": "silver needle noodles",
+    "chinesename": "银针粉",
+    "image": "png_afternoontea/pearlnoodle.png",
+    "price": "HKD $30–$45 (USD $3.90–$5.85)",
+    "ingredients": "wheat starch, rice flour, water, salt, oil",
+    "description": "Short, thick noodles with a chewy texture, often stir-fried with vegetables and meat."
+  },
+  {
+    "englishname": "pork with pickled mustard greens noodle soup",
+    "chinesename": "雪菜肉丝汤米",
+    "image": "png_afternoontea/pickedvegandporknoodlesoup.png",
+    "price": "HKD $35–$50 (USD $4.55–$6.50)",
+    "ingredients": "pork slices, pickled mustard greens, rice noodles, garlic, ginger, chicken broth",
+    "description": "A comforting noodle soup featuring tender pork and tangy pickled greens in a savory broth."
+  },
+  {
+    "englishname": "pineapple bun",
+    "chinesename": "菠萝包",
+    "image": "png_afternoontea/pineapplebun.png",
+    "price": "HKD $8–$12 (USD $1.04–$1.56)",
+    "ingredients": "flour, sugar, eggs, butter, milk, yeast",
+    "description": "A soft, sweet bun topped with a crunchy, sugary crust resembling a pineapple's exterior."
+  },
+  {
+    "englishname": "red bean ice",
+    "chinesename": "红豆冰",
+    "image": "png_afternoontea/redbeanice.png",
+    "price": "HKD $15–$25 (USD $1.95–$3.25)",
+    "ingredients": "red beans, sugar, evaporated milk, ice cubes",
+    "description": "A refreshing dessert drink combining sweetened red beans with creamy milk over crushed ice."
+  }
+]

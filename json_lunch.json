@@ -1,0 +1,90 @@
+[
+  {
+    "englishname": "bbq pork over rice",
+    "chinesename": "叉烧饭",
+    "image": "png_lunch/bbqporkrice.png",
+    "price": "HKD $30–$40 (USD $3.90–$5.20)",
+    "ingredients": "bbq pork (char siu), steamed white rice, soy sauce, optional bok choy",
+    "description": "Tender, sweet-savory slices of char siu served over fluffy rice, often accompanied by a drizzle of soy sauce and greens."
+  },
+  {
+    "englishname": "beef chow fun",
+    "chinesename": "干炒牛河",
+    "image": "png_lunch/beefchowfun.png",
+    "price": "HKD $35–$50 (USD $4.55–$6.50)",
+    "ingredients": "flat rice noodles, beef slices, bean sprouts, scallions, soy sauce, oil",
+    "description": "Stir-fried wide rice noodles with marinated beef, offering a smoky \"wok hei\" flavor.\n"
+  },
+  {
+    "englishname": "beef curry with rice",
+    "chinesename": "牛肉咖喱饭",
+    "image": "png_lunch/beefcurry.png",
+    "price": "HKD $60–$70 (USD $7.80–$9.10)",
+    "ingredients": "beef chunks, curry sauce, potatoes, carrots, steamed rice",
+    "description": "Hearty beef simmered in a mildly spicy curry sauce, served over rice for a comforting meal."
+  },
+  {
+    "englishname": "pork belly claypot rice with salted egg yolk",
+    "chinesename": "咸蛋肉饼煲仔饭",
+    "image": "png_lunch/claypotricesaltedeggyolk.png",
+    "price": "HKD $60–$80 (USD $7.80–$10.40)",
+    "ingredients": "pork belly, salted egg yolk, rice, soy sauce, scallions",
+    "description": "Claypot-cooked rice topped with succulent pork belly and rich salted egg yolk, offering crispy rice at the bottom."
+  },
+  {
+    "englishname": "cantonese cream corn fish fillet",
+    "chinesename": "忌廉粟米鱼柳",
+    "image": "png_lunch/creamcornfishfilet.png",
+    "price": "HKD $50–$70 (USD $6.50–$9.10)",
+    "ingredients": "white fish fillet, creamed corn, egg whites, chicken broth",
+    "description": "Lightly battered fish fillets smothered in a sweet corn and egg white sauce, served over rice."
+  },
+  {
+    "englishname": "hong kong style corn cream soup",
+    "chinesename": "粟米忌廉汤",
+    "image": "png_lunch/creamsoup.png",
+    "price": "HKD $20–$30 (USD $2.60–$3.90)",
+    "ingredients": "sweet corn, chicken broth, milk or cream, egg whites",
+    "description": "A creamy, slightly sweet soup combining corn and egg whites, often served as a starter in cha chaan tengs."
+  },
+  {
+    "englishname": "cantonese roast duck noodle soup",
+    "chinesename": "烧鸭汤面",
+    "image": "png_lunch/ducknoodlesoup.png",
+    "price": "HKD $40–$60 (USD $5.20–$7.80)",
+    "ingredients": "roast duck slices, egg noodles, duck broth, bok choy",
+    "description": "Rich duck broth with tender roast duck and springy noodles, garnished with greens."
+  },
+  {
+    "englishname": "fried rice",
+    "chinesename": "炒饭",
+    "image": "png_lunch/friedrice.png",
+    "price": "HKD $40–$60 (USD $5.20–$7.80)",
+    "ingredients": "white rice, eggs, scallions, soy sauce, optional meats or vegetables",
+    "description": "Stir-fried rice with eggs and various add-ins, offering a savory and satisfying dish.\n"
+  },
+  {
+    "englishname": "cantonese style bbq meat with salted egg yolk over rice",
+    "chinesename": "咸蛋黄烧味饭",
+    "image": "png_lunch/meatandrice.png",
+    "price": "HKD $50–$70 (USD $6.50–$9.10)",
+    "ingredients": "assorted bbq meats (char siu, roast pork), salted egg yolk, steamed rice",
+    "description": "A combination of flavorful roasted meats served over rice, complemented by the richness of salted egg yolk."
+  },
+  {
+    "englishname": "singapore noodles",
+    "chinesename": "星洲炒米粉",
+    "image": "png_lunch/singaporenoodles.png",
+    "price": "HKD $40–$60 (USD $5.20–$7.80)",
+    "ingredients": "rice vermicelli, curry powder, shrimp, char siu, bell peppers, onions",
+    "description": "Stir-fried thin noodles with a curry flavor, mixed with meats and vegetables for a spicy kick."
+  },
+  {
+    "englishname": "wonton noodles",
+    "chinesename": "云吞面",
+    "image": "png_lunch/wontonnoodles.png",
+    "price": "HKD $30–$50 (USD $3.90–$6.50)",
+    "ingredients": "wontons (pork and shrimp), egg noodles, clear broth, chives",
+    "description": "Delicate dumplings and noodles in a light, flavorful broth, a staple in Hong Kong cuisine."
+  }
+]
