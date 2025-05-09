@@ -9,15 +9,12 @@ $(document).ready(function() {
     $('.refresh').on('click', function() {
         console.log('Refresh button clicked');
         
-        // Scroll to top first
         window.scrollTo(0, 0);
         
-        // Disable browser's scroll position memory
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
         }
         
-        // Reload the page after a short delay
         setTimeout(function() {
             window.location.reload();
         }, 100);
@@ -25,7 +22,6 @@ $(document).ready(function() {
 
     $(window).on("scroll", function() {
         if ($(window).scrollTop() > 300) {
-            // When scrolled down
             $('.chachaantengtitle img').css({
                 'position': 'fixed',
                 'top': '5%',
@@ -39,7 +35,6 @@ $(document).ready(function() {
                 'transition': 'all 0.1s ease',
             });
         } else {
-            // When at top of page
             $('.chachaantengtitle img').css({
                 'position': 'fixed',
                 'top': '50vh',
@@ -55,14 +50,12 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 450) {
-            // When scrolled down
             $('.intro-text').css({
                 'visibility':'visible',
                 'opacity': '1',
                 'position': 'fixed',
             });
         } else {
-            // When at top of page
             $('.intro-text').css({
                 'visibility': 'hidden',
                 'opacity': '0',
@@ -93,13 +86,11 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 1200) {
-            // When scrolled down
             $('.intro-text').css({
                 'opacity': '0',
                 'transition': 'all 0.6s ease'                
             });
         } else {
-            // When at top of page
             $('.intro-text').css({
                 'opacity': '1',
                 'transition': 'all 0.6s ease'
@@ -108,7 +99,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 1300) {
-            // When scrolled down
             $('.chachaantengtitle img').css({
                 'position': 'fixed',
                 'top': '5%',
@@ -127,7 +117,6 @@ $(document).ready(function() {
                 'transition': 'all 0.2s ease',
             });
         } else {
-            // When at top of page
             $('.chachaantengtitle img').css({
                 'position': 'fixed',
                 'top': '5%',
@@ -145,7 +134,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 1500) {
-            // When scrolled down
             $('.bfast-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '1'
@@ -158,7 +146,6 @@ $(document).ready(function() {
             })
 
         } else {
-            // When at top of page
             $('.bfast-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '0'
@@ -258,7 +245,6 @@ $(document).ready(function() {
             
                         $(".breakfast").html(imageHtml);
                         
-                        // Trigger animation after a short delay to ensure DOM is ready
                         setTimeout(function() {
                             $(".breakfast-img").css("transform", "translateX(0%)");
                             $(".breakfast-info").css("opacity", "1");
@@ -309,7 +295,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 2050) {
-            // When scrolled down
             $('.lunch-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '1'
@@ -332,7 +317,6 @@ $(document).ready(function() {
             $('.time').html('12:30');
             
         } else {
-            // When at top of page
             $('.lunch-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '0'
@@ -428,7 +412,6 @@ $(document).ready(function() {
         
                     $(".lunch").html(imageHtml);
                     
-                    // Trigger animation after a short delay to ensure DOM is ready
                     setTimeout(function() {
                         $(".lunch-img").css("transform", "translateX(0%)");
                         $(".lunch-info").css("opacity", "1");
@@ -479,7 +462,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 2570) {
-            // When scrolled down
             $('.afternoontea-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '1'
@@ -506,7 +488,6 @@ $(document).ready(function() {
             $('.time').html('16:00');
             
         } else {
-            // When at top of page
             $('.afternoontea-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '0'
@@ -601,7 +582,6 @@ $(document).ready(function() {
         
                     $(".afternoontea").html(imageHtml);
                     
-                    // Trigger animation after a short delay to ensure DOM is ready
                     setTimeout(function() {
                         $(".afternoontea-img").css("transform", "translateX(0%)");
                         $(".afternoontea-info").css("opacity", "1");
@@ -653,7 +633,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 3020) {
-            // When scrolled down
             $('.dinner-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '1'
@@ -682,7 +661,6 @@ $(document).ready(function() {
             $('.time').html('20:00');
             
         } else {
-            // When at top of page
             $('.dinner-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '0'
@@ -774,7 +752,6 @@ $(document).ready(function() {
         
                     $(".dinner").html(imageHtml);
                     
-                    // Trigger animation after a short delay to ensure DOM is ready
                     setTimeout(function() {
                         $(".dinner-img").css("transform", "translateX(0%)");
                         $(".dinner-info").css("opacity", "1");
@@ -826,7 +803,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 3450) {
-            // When scrolled down
             $('.latenightsnack-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '1'
@@ -857,7 +833,6 @@ $(document).ready(function() {
             $('.time').html('00:00');
  
         } else {
-            // When at top of page
             $('.latenightsnack-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '0'
@@ -949,7 +924,6 @@ $(document).ready(function() {
         
                     $(".latenightsnack").html(imageHtml);
                     
-                    // Trigger animation after a short delay to ensure DOM is ready
                     setTimeout(function() {
                         $(".latenightsnack-img").css("transform", "translateX(0%)");
                         $(".latenightsnack-info").css("opacity", "1");
@@ -1001,7 +975,6 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() > 3750) {
-            // When scrolled down
             $('.last-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '1'
@@ -1020,7 +993,6 @@ $(document).ready(function() {
             });
             
         } else {
-            // When at top of page
             $('.last-title').css({
                 'transition': 'all 0.5s ease',
                 'opacity': '0'
